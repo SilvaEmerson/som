@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mptchs
-import cPickle as pickle
+import pickle
 from scipy.spatial.distance import cdist
 from sklearn.decomposition import PCA
 from multiprocessing import cpu_count, Process, Queue
